@@ -7,7 +7,7 @@
 export function fizzBuzz(n: number): string[] {
     if (n < 1) {
         throw new Error('n muss größer als 0 sein.');
-    } else if (!Number.isInteger(n)){
+    } else if (!Number.isInteger(n)) {
         throw new Error('n muss eine ganze Zahl sein.');
     } else {
         const result: string[] = [];
