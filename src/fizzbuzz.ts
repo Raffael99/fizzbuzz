@@ -25,6 +25,8 @@ export function fizzBuzz(n: number): string[] {
  * @returns Einen String, welcher entweder FizzBuzz, Fizz oder die ursprüngliche Zahl ist.
  */
 export function fizzBuzzSingle(number: number): string {
+    // Für den Umfang der Aufgabe eventuell unnötig komplex diese Funktionalität auszulagern,
+    // aber normalerweise wäre es sinnvoll für andere Use Cases diese Grundfunktionalität auszulagern.
     if (number < 1) {
         throw new Error('Die Zahl muss größer als 0 sein');
     } else {
