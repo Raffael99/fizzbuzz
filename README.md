@@ -71,3 +71,20 @@ Vollständiger Build Prozess
 ```bash
 npm run build
 ```
+
+## Veröffentlichen als npm module
+
+1. Projekt bauen
+```bash
+npm run build
+```
+
+2. Bei NPM anmelden
+```bash
+npm login
+```
+
+3. Veröffentlichen des Moduls
+```bash
+npm publish
+```
