@@ -32,7 +32,7 @@ const result = fizzBuzz(15);
 
 ### Beispiel Nutzung des Moduls in TypeScript.
 ```typescript
-import { fizzBuzz } from './fizzbuzz';
+import { fizzBuzz } from './dist/fizzbuzz';
 const result = fizzBuzz(15);
 ```
 
